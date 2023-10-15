@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Work</title>
+    
+    <!-- Adicione as referências ao Bootstrap CSS e JS -->
+    <link rel="stylesheet" href="../src/style/home.css">
+</head>
+<body>
+
+    <!-- Menu Lateral -->
+    <aside class="menu menu-topo">
+        <button onclick="location.href='home'">Home</button>
+        <button onclick="location.href='projetos'">Projetos</button>
+        <button onclick="location.href='contato'">Contato</button>
+    </aside>
+
+    <!-- Seção Home -->
+    <section id="home" class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Bem-vindo à Classic Work</h1>
+                <p>Explore a beleza da música clássica e suas composições atemporais.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="../src/img/Working long day while listening Dramatic Hiphop Lofi Misic-Sicko~Yung Lagos.jpeg" alt="Imagem tirada de #hiphop #lofimusic #studymusic Working long day while listening Dramatic Hiphop Lofi Misic-Sicko~Yung Lagos">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="container">
+        <h2>Projetos em Música Clássica</h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="projeto1.jpg" class="card-img-top" alt="Projeto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Projeto 1</h5>
+                    <p class="card-text">Descrição do Projeto 1.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="projeto2.jpg" class="card-img-top" alt="Projeto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Projeto 2</h5>
+                    <p class="card-text">Descrição do Projeto 2.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="projeto3.jpg" class="card-img-top" alt="Projeto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Projeto 3</h5>
+                    <p class="card-text">Descrição do Projeto 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="container">
+        <h2>Entre em Contato</h2>
+        <p>Para perguntas ou colaborações, entre em contato conosco:</p>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    
+    <!-- Adicione a referência ao Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
